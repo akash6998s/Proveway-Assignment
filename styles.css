@@ -103,7 +103,7 @@ tr th {
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-  width: 500px;
+  width: 450px;
 }
 
 .separator-line {
@@ -268,8 +268,5 @@ input[type="radio"]:checked::before {
 
   .separator-line {
     width: 23%;
-  }
-  .pricing-plans-container {
-    width: 100%;
   }
 }
