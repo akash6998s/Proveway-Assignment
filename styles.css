@@ -40,7 +40,6 @@ select {
 .custom-select {
     position: relative;
     display: inline-block;
-    width: 100%;
   }
   
   .custom-select select {
@@ -284,4 +283,10 @@ input[type="radio"]:checked::before {
   .separator-line {
     width: 23%;
   }
+
+  
+
+  .pricing-plan.expanded .plan-details {
+    padding: 0 1.5rem;
+}
 }
