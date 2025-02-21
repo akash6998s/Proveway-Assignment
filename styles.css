@@ -13,8 +13,6 @@ body {
   background-color: #fff;
 }
 
-
-
 .text-center {
   text-align: center;
 }
@@ -38,15 +36,15 @@ select {
 }
 
 .custom-select {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .custom-select select {
-    padding: 10px;
-    border-radius: 5px;
-    background-color: white;
-  }
+  position: relative;
+  display: inline-block;
+}
+
+.custom-select select {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+}
 
 .order-number {
   font-size: 10px;
@@ -282,9 +280,7 @@ input[type="radio"]:checked::before {
     width: 23%;
   }
 
-  
-
   .pricing-plan.expanded .plan-details {
     padding: 0 1.5rem;
-}
+  }
 }
