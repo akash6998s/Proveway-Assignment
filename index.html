@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Inter Font Style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css">
+    <title>Pricing Plans</title>
+  </head>
+  <body>
+    <div class="pricing-plans-container">
+      <div class="header-section">
+        <span class="separator-line"></span>
+        <h3 class="text-center font-bold heading-main">YAY! It’s BOGO</h3>
+        <span class="separator-line"></span>
+      </div>
+
+      <div class="pricing-plan" onclick="togglePlanDetails(this)">
+        <div class="plan-header">
+          <span class="plan-header-details">
+            <span class="flex">
+              <input type="radio" name="plan" />
+              <span class="plan-info column mx-1">
+                <span class="flex">
+                  <span class="font-bold">1 Unit</span>
+                  <span class="discount-text font-normal mx-1">10% Off</span>
+                </span>
+                <span class="price-label"> Standard Price </span>
+              </span>
+            </span>
+            <span class="plan-price font-medium">
+              <span class="font-medium">$10.00 USD</span>
+              <span class="font-normal previous-price">$24.00 USD</span>
+            </span>
+          </span>
+        </div>
+        <div class="plan-details">
+          <table>
+            <thead>
+              <tr>
+                <th></th>
+                <th>Size</th>
+                <th>Colour</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="order-number">#1</td>
+                <td>
+                  <select>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                  </select>
+                </td>
+                <td>
+                  <select>
+                    <option value="Green">Green</option>
+                    <option value="Red">Red</option>
+                    <option value="Yellow">Yellow</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td class="order-number">#2</td>
+                <td>
+                  <select>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                  </select>
+                </td>
+                <td>
+                  <select>
+                    <option value="Green">Green</option>
+                    <option value="Red">Red</option>
+                    <option value="Yellow">Yellow</option>
+                  </select>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="pricing-plan selected-plan expanded" onclick="togglePlanDetails(this)">
+        <div class="plan-header">
+          <span class="plan-header-details">
+            <span class="flex">
+              <input type="radio" name="plan" checked />
+              <span class="plan-info column mx-1">
+                <span class="flex">
+                  <span class="font-bold">2 Unit</span>
+                  <span class="discount-text font-normal mx-1">20% Off</span>
+                </span>
+              </span>
+            </span>
+            <span class="plan-price font-medium">
+              <span class="font-medium">$18.00 USD</span>
+              <span class="font-normal previous-price">$24.00 USD</span>
+            </span>
+          </span>
+        </div>
+        <span class="badge">MOST POPULAR</span>
+        <img class="badge-rectangle" src="/images/rectangle.png" alt="" />
+        <div class="plan-details" style="display: block">
+          <table>
+            <thead>
+              <tr>
+                <th></th>
+                <th>Size</th>
+                <th>Colour</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="order-number">#1</td>
+                <td>
+                  <select>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                  </select>
+                </td>
+                <td>
+                  <select>
+                    <option value="Green">Green</option>
+                    <option value="Red">Red</option>
+                    <option value="Yellow">Yellow</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td class="order-number">#2</td>
+                <td>
+                  <select>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                  </select>
+                </td>
+                <td>
+                  <select>
+                    <option value="Green">Green</option>
+                    <option value="Red">Red</option>
+                    <option value="Yellow">Yellow</option>
+                  </select>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="pricing-plan" onclick="togglePlanDetails(this)">
+        <div class="plan-header">
+          <span class="plan-header-details">
+            <span class="flex">
+              <input type="radio" name="plan" />
+              <span class="plan-info column mx-1">
+                <span class="flex">
+                  <span class="font-bold">3 Unit</span>
+                  <span class="discount-text font-normal mx-1">30% Off</span>
+                </span>
+              </span>
+            </span>
+            <span class="plan-price font-medium">
+              <span class="font-medium">$24.00 USD</span>
+              <span class="font-normal previous-price">$24.00 USD</span>
+            </span>
+          </span>
+        </div>
+        <div class="plan-details">
+          <table>
+            <thead>
+              <tr>
+                <th></th>
+                <th>Size</th>
+                <th>Colour</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="order-number">#1</td>
+                <td>
+                  <select>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                  </select>
+                </td>
+                <td>
+                  <select>
+                    <option value="Green">Green</option>
+                    <option value="Red">Red</option>
+                    <option value="Yellow">Yellow</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td class="order-number">#2</td>
+                <td>
+                  <select>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                  </select>
+                </td>
+                <td>
+                  <select>
+                    <option value="Green">Green</option>
+                    <option value="Red">Red</option>
+                    <option value="Yellow">Yellow</option>
+                  </select>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="total-price-section">
+        <span class="font-medium free-delivery">Free Delivery</span>
+        <span class="font-normal">
+          Total: <span id="total" class="font-medium">$18.00 USD</span></span
+        >
+      </div>
+      <button class="add-to-cart-button font-medium">
+        <span class="plus-sign">+</span> <span>Add to Cart</span>
+      </button>
+      <div class="font-normal powered-by">@ Powered by Pumper</div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
